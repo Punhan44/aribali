@@ -1,0 +1,420 @@
+.shop-image {
+    background: url(/image/about-us-img-1.jpg);
+}
+.aboutus-section {
+    margin: 5rem 0;
+}
+.about-row {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 40px;
+}
+
+.col-left-6 {
+    flex-basis: 37%;
+    width: 100%;
+}
+
+.col-right-6 {
+    flex-basis: 66%;
+    width: 100%;
+}
+
+.about-text-title {
+    text-transform: uppercase;
+}
+
+h1.about-h1 span {
+    color: #d3a863;
+}
+
+h3.about-h3 {
+    font-size: 17px;
+    margin-top: 6px;
+}
+
+
+.about-right-text {
+    color: #5b5858; 
+    font-size: 17px;
+}
+p.about-right-text-top {
+    line-height: 26px;
+    margin-bottom: 2rem;
+}
+
+span.right-text-top {
+    line-height: 26px;
+}
+
+.about-image-collection {
+    margin: 3rem 0;
+}
+.about-image-left {
+    flex-basis: 32%;
+}
+.about-image-middle {
+    flex-basis: 30%;
+    width: 100%;
+}
+.about-image-right{
+    flex-basis: 30%;
+    width: 100%;
+}
+
+.image-sec{
+    width: 100%;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #5b5858;
+}
+.about-image-bottom {
+    margin-top: -62px;
+    float: right;
+    width: 45rem;
+}
+p.about-image-bottom-right {
+    letter-spacing: 1px;
+    color: #5b5858;
+}
+
+.our-team-picture-iiner {
+    position: relative;
+    width: 100%;
+}
+.our-team-image-header {
+    position: relative;
+    width: 100%;
+}
+.our-team-image-header img {
+    width: 100%;
+}
+
+.our-team-info {
+    margin-top: 18rem;
+ text-align: center;
+}
+.our-team-header-text h1 {
+    text-transform: uppercase;
+}
+
+
+
+p.our-header-little-text {
+    margin: 8.5px;
+    color: #5b5858;
+}
+
+.our-team-info-picture {
+    margin: 5rem 0;
+    position: relative;
+}
+p.our-team-job {
+    margin-top: 2rem;
+    margin-bottom: 1px;
+    color: #c74817;
+}
+p.our-team-job {
+    margin-top: 2rem;
+    margin-bottom: 1px;
+    color: #c74817;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+h1.our-team-by {
+    font-size: 22px;
+    margin-bottom: 17px;
+}
+p.our-team-bottom {
+    color: #5b5858;
+    font-size: 15px;
+}
+
+.our-team-icons-site {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+
+.our-team-absoluty {
+    width: 72px;
+    position: absolute;
+    right: -5rem;
+    top: 320px;
+}
+.our-team-absoluty img{
+    width: 100%;
+}
+
+.our-team-left-absoluty{
+    width: 72px;
+    position: absolute;
+    left: -5rem;
+    top: 320px;
+}
+.our-team-left-absoluty img{
+    width: 100%;
+}
+
+@media (max-width:1200px){
+.shop-image{
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.product-h1 {
+    font-size: 60px;
+
+}
+.aboutus-section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.about-image-right {
+    flex-basis: 25%;
+    width: 100%;
+}
+.about-image-middle {
+    flex-basis: 25%;
+    width: 100%;
+}
+
+.about-image-left {
+    flex-basis: 25%;
+}
+.about-row {
+    gap: 30px;
+    justify-content: space-evenly;
+}
+img.about-image-src {
+    width: 100%;
+}
+p.about-image-bottom-right {
+    width: 35rem;
+    float: right;
+    margin-right: 2rem;
+}
+h1 {
+    font-size: 25px;
+}
+.col-4 {
+    flex-basis: 30%;
+}
+.about-row {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    gap: 0px;
+    justify-content: space-between;
+}
+h1.our-team-by {
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+p.our-team-bottom {
+    color: #5b5858;
+    font-size: 14px;
+}
+.footer-col-4 {
+    position: relative;
+    flex-basis: 49%;
+}
+.our-team-left-absoluty {
+    left: -1rem;
+    top: 193px;
+}
+.our-team-absoluty {
+    right: -1rem;
+    top: 193px;
+}
+}
+
+@media (max-width:992px){
+    .about-image-bottom {
+        margin-top: 3px;
+        float: right;
+        width: 45rem;
+    }
+    p.about-image-bottom-right {
+        width: 28rem;
+    }
+    .our-team-left-absoluty {
+        width: 50px;
+
+        top: 193px;
+    }
+    .our-team-absoluty {
+        width: 50px;
+        right: -1rem;
+        top: 193px;
+    }
+    p.footer-header-text {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 9px;
+        width: 14rem;
+        margin: auto;
+    }
+    p.products {
+        text-align: center;
+        margin-bottom: 9px;
+    }
+    h1.footer-hive-h1-product {
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        margin-bottom: 14px;
+    }
+}
+@media (max-width:768px){
+    .about-image-left {
+        display: none;
+    }
+    .col-left-6 {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .about-row {
+        flex-wrap: wrap;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    .col-right-6 {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .about-text-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-image-middle {
+    flex-basis: 100%;
+    width: 100%;
+}
+.about-image-right {
+    flex-basis: 100%;
+    width: 100%;
+}
+.about-image-bottom {
+    margin-top: 3rem;
+    float: none;
+    width: 100%;
+}
+p.about-image-bottom-right {
+    width: 26rem;
+    float: none;
+    margin: auto;
+}
+.col-4 {
+    flex-basis: 100%;
+}
+.footer-col-4 {
+    position: relative;
+    flex-basis: 100%;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.absoluty-footer-product {
+    left: 38%;
+
+}
+.footer-contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+h1.product-h1 {
+    font-size: 41px;
+}
+}
+
+@media (max-width:576px){
+    h1.product-h1 {
+        font-size: 28px;
+    }
+    h1 {
+       
+        font-size: 18px;
+    }
+    h3.about-h3 {
+        font-size: 15px;
+        margin-top: 6px;
+    }
+    .about-image-bottom {
+        margin-top: 3rem;
+        float: none;
+        width: 100%;
+    }
+    p.about-image-bottom-right {
+        width: 26rem;
+        float: none;
+        margin: auto;
+    }
+    strong {
+        font-size: 14px;
+    }
+    p {
+        line-height: 15px;
+        font-size: 13px;
+    }
+    h1.our-team-by {
+        font-size: 17px;
+        margin-bottom: 17px;
+    }
+    p.our-team-job {
+
+        letter-spacing: 1px;
+    }
+    h1.footer-hive-h1 {
+        font-size: 19px;
+        letter-spacing: 0.5px;
+
+    }
+    h1.footer-hive-h1-product {
+        font-size: 19px;
+        letter-spacing: 0.5px;
+
+    }
+    p.footer-header-text {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 13px;
+        margin-bottom: 9px;
+        width: 14rem;
+        margin: auto;
+    }
+    p.fotter-header-date {
+        padding-top: 12px;
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.9px;
+        color: #c74817;
+    }
+    a.icon-sosial {
+        background-color: #c74817;
+        padding: 6px 7px;
+        border-radius: 50%;
+        font-size: 11px;
+        color: #ffff;
+        /* line-height: 0; */
+        margin-left: 6px;
+        transition: 0.4s all;
+    }
+}
