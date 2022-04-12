@@ -1,0 +1,211 @@
+.shop-image {
+    background: url(/image/Blog-list-Masonry-TA-img1.jpg) ;
+}
+
+.news-left {
+   
+    display:inline-block;
+    width: 66.66%;
+    
+}
+
+img.news-image-url {
+    width: 100%;
+}
+p.news-date {
+    margin: 1rem 0 0.3rem;
+    font-size: 13px;
+    font-weight: 600;
+    color: #c74817;
+    cursor: pointer;
+}
+
+p.news-p-one {
+    margin: 2rem 0;
+    font-size: 18.5px;
+}
+p.news-p-two {
+    margin-bottom: 2rem;
+    font-size: 18.5px;
+}
+
+.news-image-text {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+}
+.news-image-text-one {
+    flex-basis: 49%;
+}
+.text-images{
+    width: 100%;
+}
+
+
+
+p.news-p-three {
+    margin: 2rem 0;
+    font-size: 18.5px;
+}
+
+p.news-p-five {
+    margin: 2rem 0;
+    font-size: 18.5px;
+}
+
+
+
+p.news-p-four {
+    font-weight: bolder;
+    color: #5b5858;
+    font-size: 18px;
+    margin-left: 41px;
+    position: relative;
+}
+p.news-p-four::before {
+    content: "";
+    width: 5px;
+    height: 67px;
+    background-color: #c74817;
+    display: flex;
+    position: absolute;
+    top: 1px;
+    left: -2rem;
+    
+}
+
+
+
+i.fa-solid.fa-circle-user {
+    font-size: 20px;
+    margin-right: 7px;
+}
+p.authhors-inner {
+    color: #5b5858;
+    font-size: 15px;
+}
+span.authoors-amazing{
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+span.authoors-amazing:hover{
+    color: #c74817;
+}
+
+span.authoors-amazing::after{
+    content: "";
+    width: 99px;
+    height: 1px;
+    background: #5b58589a;
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+}
+span.authoor-jb {
+    cursor: pointer;
+    color: #c74817;
+}
+
+.news-by-authoors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-by-authoors-two {
+    display: flex;
+    gap: 26px;
+}
+p.authors-icon {
+    font-size: 14px;
+    color: #5b5858;
+}
+
+i.fa-regular.fa-heart {
+    color: #c74817;
+}
+.fa-message-captions{
+    color: #c74817;
+}
+
+.news-comment {
+    margin: 5rem 0;
+}
+
+.news-comment-inner {
+    margin-top: 2rem;
+}
+
+.news-comment-inner {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.news-comment-inner .fa-circle-user{
+    font-size: 60px !important;
+    color: #5b58588d;
+}
+p.by-authoor-text {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+span.authoor-date {
+    cursor: pointer;
+    color: #c74817;
+    transition: 0.3s ease-in;
+}
+span.authoor-date:hover{
+    color: #5b5858;
+}
+p.by-authoor-comment-text {
+    color: #5b5858;
+}
+
+.news-comment-add textarea {
+    max-width: 701px;
+    min-width: 601px;
+    width: 100%;
+    height: 241px;
+    margin-top: 2rem;
+    outline: none;
+}
+p.leave-comment-p {
+    margin: 1rem 0;
+    position: relative;
+}
+
+input.leave-comment {
+    width: 100%;
+    padding: 15px 16px;
+}
+
+.fa-comm {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+input.leave-comment {
+    width: 100%;
+    padding: 15px 16px;
+    outline: none;
+}
+
+.news-section {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.float-right {
+    float: right;
+    width: 28%;
+    position: relative;
+    display: inline-block;
+}
+.float-right .col-2{
+    width: 100%;
+}
