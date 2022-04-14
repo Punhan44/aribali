@@ -1889,7 +1889,7 @@ h3 {
     font-size: 18px;
 }
 p.inner-info {
-    width: 20rem;
+    width: 16rem;
     font-size: 13px;
 }
 .signature-image {
@@ -1910,12 +1910,12 @@ h1.product-h1 {
     font-size: 18px;
 }
 p.products-text {
-    width: 20rem;
+    width: 16rem;
     margin-left: auto;
     margin-right: auto;
 }
 p.galery-text {
-    width: 18rem;
+    width: 15rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -1948,11 +1948,7 @@ p.galery-text {
     top: 3rem !important;
     left: 7rem !important;
 }
-.modal {
-    width: 69% !important;
 
-
-}
 .container {
     width: 93% !important;
 }
