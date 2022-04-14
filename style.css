@@ -1752,6 +1752,10 @@ iframe {
 
 
 @media (max-width:576px){
+    .mail-info {
+        margin-top: 1rem;
+        width: 100%;
+    }
     img.dotted {
         width: 6rem;
     }
