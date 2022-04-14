@@ -7,7 +7,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    
+  
     scroll-behavior: smooth;
 }
 
@@ -1367,6 +1367,24 @@ ul.menu-main{
 }
 
 @media (max-width:992px){
+    img.dotted {
+        width: 10rem;
+    }
+    .absoluty-section-six-dotted {
+        position: absolute;
+        top: 28px;
+        right: -2rem;
+        transform: rotate(359deg);
+    }
+    .back-to-top {
+        right: 13rem;
+        top: 22rem;
+    }
+    .absolute-dotted-top {
+        position: absolute;
+        right: 22px;
+        top: -3rem;
+    }
     .absoluty-menu-bar {
     display: block;
     margin-top: 1rem;
@@ -1734,6 +1752,57 @@ iframe {
 
 
 @media (max-width:576px){
+    img.dotted {
+        width: 6rem;
+    }
+    img.vbess {
+    width: 2rem;
+}
+.absoluty-section-sex-bees {
+    position: absolute;
+    left: -1.7rem;
+    top: 10rem;
+}
+img.bee-img {
+    width: 1.6rem;
+}
+.absolute-bee-bottom {
+    position: absolute;
+    left: 22.6rem !important;
+    top: 1rem;
+    z-index: 100;
+}
+    .absoluty-section-two-dotted {
+    position: absolute;
+    top: 2rem;
+    right: -4rem;
+    transform: rotate(230deg);
+}
+p.type {
+    line-height: 15px;
+    font-size: 14px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.typesofhoney {
+    margin-left: 0rem;
+}
+p.mail-error {
+
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.mail-succes {
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+    p.text-em {
+        width: 20rem;
+    }
     .qodef-holder {
         display: flex;
         margin-left: 3rem;
@@ -1820,7 +1889,7 @@ h3 {
     font-size: 18px;
 }
 p.inner-info {
-    width: 26rem;
+    width: 20rem;
     font-size: 13px;
 }
 .signature-image {
@@ -1841,9 +1910,64 @@ h1.product-h1 {
     font-size: 18px;
 }
 p.products-text {
-    width: 23rem;
+    width: 20rem;
     margin-left: auto;
     margin-right: auto;
+}
+p.galery-text {
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.back-to-top {
+    padding: 1px 2px;
+    font-size: 13px;
+    right: 10%;
+    top: 22rem;
+}
+.navigation {
+    width: 74%;
+}
+.iframe-page {
+
+    left: 0px;
+    text-align: center;
+    top: -100px;
+    width: 69%;
+    height: 100%;
+    overflow: hidden;
+}
+.absoluty-footer-right {
+    position: absolute;
+    right: 3.6rem !important;
+    top: 3rem;
+}
+.absoluty-footer-bees {
+    position: absolute;
+    top: 3rem !important;
+    left: 7rem !important;
+}
+.modal {
+    width: 69% !important;
+
+
+}
+.container {
+    width: 93% !important;
+}
+.absolute-bee-rfly {
+    display: none;
+
+}
+input.mail-input {
+    font-size: 17px !important;
+}
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
 }
 
 img.slider-image {
