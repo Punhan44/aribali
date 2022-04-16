@@ -1979,7 +1979,7 @@ h3 {
 .player {
     position: relative;
     max-height: 100%;
-    width: 80% !important;
+    width: 79% !important;
     height: 100%;}
     .div-iframe-icon-resize {
         width: 300px;
@@ -2071,11 +2071,11 @@ p.galery-text {
     margin-left: 0px;
 }
 .iframe-page {
-    transform: translate(-1%,10%);
+    transform: translate(-10%,-19%);
     /* left: -100px; */
     /* text-align: center; */
     /* top: -100px; */
-    width: 83%;
+    width: 95%;
     height: 150%;
     overflow: hidden;
 }
