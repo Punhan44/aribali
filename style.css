@@ -1897,9 +1897,9 @@ p.mail-succes {
     position: relative;
     width: 26rem;
 }
-.div-iframe-icon-resize {
+/* .div-iframe-icon-resize {
     width: 295px;
-}
+} */
     .close-iframe-icon {
         top: 18.5rem;
         font-size: 18px;
@@ -1982,7 +1982,7 @@ h3 {
     width: 80% !important;
     height: 100%;}
     .div-iframe-icon-resize {
-        width: 381px;
+        width: 300px;
     }
 .signature-image {
     margin-bottom: 3rem;
@@ -2071,7 +2071,7 @@ p.galery-text {
     margin-left: 0px;
 }
 .iframe-page {
-    transform: translate(5%,10%);
+    transform: translate(-1%,10%);
     /* left: -100px; */
     /* text-align: center; */
     /* top: -100px; */
