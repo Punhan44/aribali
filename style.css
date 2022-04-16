@@ -517,10 +517,11 @@ margin-top: 40px;
 }
 
 .info-col-6 {
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
     max-width: 100%;
 }
+
 h1.product-h1 {
     letter-spacing: 1.5px;
     line-height: 4rem;
@@ -1548,6 +1549,22 @@ iframe {
 }
 
 @media (max-width:768px){
+    p.galery-text {
+        width: 25rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .galery-text-box {
+        text-align: center;
+        width: auto;
+    }
+    .absolute-bee-bottom {
+        position: absolute;
+        left: 33rem;
+        top: 6rem;
+        z-index: 100;
+    }
     .qodef-holder {
         display: flex;
         margin-left: 4rem;
@@ -1639,18 +1656,54 @@ p.info-text {
         width: 2rem;
     }
     .absoluty-sectiont-two-header {
-    position: absolute;
-    right: 0rem;
-    top: 2rem;
-}
+        position: absolute;
+        right: 1rem;
+        top: 0rem;
+    }
+    img.footer-footer {
+        width: 73px;
+    }
 img.dotted {
-    width: 15rem;
+    width: 7rem;
+}
+.absoluty-footer-right {
+    position: absolute;
+    right: 9rem;
+    top: 3rem;
+}
+.absoluty-footer-bees {
+    position: absolute;
+    top: 3rem;
+    left: 6rem;
+}
+.container {
+    width: 78%;
+}
+p.products-text {
+    width: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.info-col-6 {
+    text-align: center;
+    width: auto;
+    max-width: initial;
+}
+h1.product-h1 {
+    font-size: 22px;
+    text-align: center;
 }
 .absoluty-section-two-dotted {
     position: absolute;
-    top: 4rem;
-    right: -15rem;
+    top: 3rem;
+    right: -4rem;
     transform: rotate(230deg);
+}
+.back-to-top {
+    right: 0rem;
+    top: 22rem;
+    padding: 9px 10px;
 }
 img.bee-img-rotate {
     width: 2rem;
@@ -1879,15 +1932,14 @@ img.beehive {
     text-align: center;
 }
 .absoluty-play {
-    top: 20%;
-    left: 35%;
-    font-size: 20px;
-    width: 63px;
-    height: 58px;
+    transform: translate(50%,50%);
+    font-size: 16px;
+    width: 51px;
+    height: 45px;
 }
 .absoluty-play:hover {
-    width: 67px;
-    height: 61px;
+    width: 57px;
+    height: 51px;
 }
 h3 {
     font-size: 18px;
@@ -1927,7 +1979,7 @@ p.galery-text {
 .back-to-top {
     padding: 1px 2px;
     font-size: 13px;
-    right: 10%;
+    right: 1%;
     top: 22rem;
 }
 .navigation {
