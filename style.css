@@ -1825,7 +1825,7 @@ img.bee-img {
 }
 .absolute-bee-bottom {
     position: absolute;
-    left: 22.6rem !important;
+    left: 88%!important;
     top: 1rem;
     z-index: 100;
 }
@@ -1929,11 +1929,17 @@ em {
     font-size: 14px;
 }
 button.btn {
-    padding: 11px 15px;
+    padding: 7px 11px;
     margin-top: 3rem;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
-
+}
+.mail {
+    text-align: center;
+}
+p.info-text {
+    font-size: 15px;
+    width: 83%;
 }
 .col-text {
     text-align: center;
@@ -2006,9 +2012,15 @@ h1.product-h1 {
     font-size: 18px;
 }
 p.products-text {
-    width: 22rem;
+    width: 21rem;
     margin-left: auto;
     margin-right: auto;
+}
+img.mail-img {
+    width: 95%;
+    height: 26rem;
+    text-align: center;
+    margin-left: auto;
 }
 .slider-text {
     text-align: center;
@@ -2060,7 +2072,7 @@ p.galery-text {
     transform: rotate(359deg);
 }
 .navigation {
-    width: 74%;
+    width: 100%;
 }
 .section-one {
     margin-left: auto;
@@ -2078,6 +2090,25 @@ p.galery-text {
     width: 95%;
     height: 150%;
     overflow: hidden;
+}
+.mail-info h1 {
+    text-align: center;
+    font-size: 21px;
+}
+p.mail-text {
+    margin-top: 1rem;
+    color: #383838;
+    font-size: 14px;
+    width: 20rem;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+input.mail-input {
+    margin-top: 10px;
+    outline: navajowhite;
+    padding: 5px 3px;
+    font-size: 18px;
 }
 .mfp-bg {
     top: 0;
@@ -2166,11 +2197,11 @@ img.footer-footer {
 .absoluty-footer-bees {
     position: absolute;
     top: 3rem;
-    left: 0rem;
+    left: 1%;
 }
 .absoluty-footer-right {
     position: absolute;
-    right: -3.4rem;
+    right: 2%;
     top: 3rem;
 }
 h5 {
