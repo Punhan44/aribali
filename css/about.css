@@ -345,6 +345,13 @@ h1.product-h1 {
 }
 
 @media (max-width:576px){
+    .about-row {
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 50px;
+        justify-content: space-between;
+    }
     h1.product-h1 {
         font-size: 28px;
     }
@@ -362,9 +369,13 @@ h1.product-h1 {
         width: 100%;
     }
     p.about-image-bottom-right {
-        width: 26rem;
+        width: 100%;
         float: none;
         margin: auto;
+    }
+    .absoluty-footer-product {
+        transform: translate(-24%);
+
     }
     strong {
         font-size: 14px;
