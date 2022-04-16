@@ -1966,6 +1966,12 @@ h3 {
     margin-left: auto;
     text-align: center;
 }
+.col-4-hover {
+    margin-top: 40px;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 .signature-image {
     margin-bottom: 3rem;
     padding-left: 2rem;
