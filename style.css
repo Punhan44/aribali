@@ -1972,10 +1972,10 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
-.player-d455397c-3cbb-4088-bb19-109a73a5dd41 {
+.player {
     position: relative;
     max-height: 100%;
-    width: 90%;
+    width: 80% !important;
     height: 100%;}
     .div-iframe-icon-resize {
         width: 381px;
@@ -2067,7 +2067,7 @@ p.galery-text {
     margin-left: 0px;
 }
 .iframe-page {
-    transform: translate(-4%,10%);
+    transform: translate(5%,10%);
     /* left: -100px; */
     /* text-align: center; */
     /* top: -100px; */
@@ -2078,7 +2078,7 @@ p.galery-text {
 .mfp-bg {
     top: 0;
     left: 0;
-    width: 80%;
+    width: 90%;
     height: 100%;
     z-index: 1043;
     overflow: hidden;
