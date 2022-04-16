@@ -1891,11 +1891,15 @@ p.mail-succes {
     }
 
     iframe {
-        width: 403px;
+        width: 305px;
     }
-    .div-iframe-icon-resize {
-        width: 403px;
-    }
+    .iframe-page-inner {
+    position: relative;
+    width: 26rem;
+}
+.div-iframe-icon-resize {
+    width: 295px;
+}
     .close-iframe-icon {
         top: 18.5rem;
         font-size: 18px;
