@@ -114,13 +114,24 @@
     }
 }
 @media(max-width:576px){
+    .col-body {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img.beehive {
+        width: 100%;
+        height: 357px;
+    }
    
     img.logo {
         width: 11rem;
     }
-    img.beehive {
-        width: 451px;
-        height: 357px;
+    p.inner-info {
+        width: 100%;
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .absoluty-play {
       
@@ -135,11 +146,8 @@
         font-size: 18px;
         text-align: center;
     }
-    p.inner-info {
-        width: 28rem;
-        font-size: 12px;
-        margin-left: auto;
-        margin-right: auto;
+    .inner-row {
+        width: 100%;
     }
     .cart-input {
         font-size: 13px;
