@@ -1130,7 +1130,7 @@ img.mail-img {
         width: 60rem;
         max-height: calc(100vh - 70px);
         background: white;
-        top: 5%;
+        top: 61px;
        
         text-align: start;
         align-items: baseline;
@@ -1549,6 +1549,10 @@ iframe {
 }
 
 @media (max-width:768px){
+    .absolute-right {
+        top: 22rem;
+        right: 8%;
+    }
     p.galery-text {
         width: 25rem;
         margin-left: auto;
@@ -1668,13 +1672,16 @@ img.dotted {
 }
 .absoluty-footer-right {
     position: absolute;
-    right: 9rem;
-    top: 3rem;
+    right: -18%;
+    top: -2rem;
 }
 .absoluty-footer-bees {
     position: absolute;
-    top: 3rem;
-    left: 6rem;
+    top: -3rem;
+    left: 1%;
+}
+.absolute-bee-rfly {
+    display: none;
 }
 .container {
     width: 78%;
@@ -1805,6 +1812,7 @@ iframe {
 
 
 @media (max-width:576px){
+   
     .mail-info {
         margin-top: 1rem;
         width: 100%;
