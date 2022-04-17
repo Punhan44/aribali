@@ -354,6 +354,46 @@ button.btn {
 }
 }
 @media (max-width:576px){
+    .cart-totals-two-line {
+        display: flex;
+        gap: 2.4rem;
+        align-items: center;
+        justify-content: unset;
+        flex-wrap: nowrap;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+    select#city {
+    padding: 5px;
+    outline: none;
+    color: #383838;
+    font-size: 16px;
+}
+input.adress-enter {
+    font-size: 14px;
+    outline: none;
+    padding: 5px;
+    margin-top: 19px;
+}
+.adress-enter-down button {
+    width: 90%;
+}
+.cart-subtotals {
+    gap: 4rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    position: relative;
+}
+p.subtotal-p {
+    margin-right: 0rem;
+}
+.total-price-footer {
+    display: flex;
+    gap: 5.4rem;
+    flex-wrap: wrap;
+}
     .td {
         font-size: 15px;
     }
