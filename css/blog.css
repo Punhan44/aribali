@@ -190,17 +190,23 @@ iframe {
 }
 }
 @media (max-width:576px){
+    .blog-info {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+        width: 91%;
+    }
     .section-col-4 {
         margin-bottom: 2rem;
         flex-basis: 100%;
         width: 100%;
     }
     h3.blog-title {
-        font-size: 16px;
+        font-size: 15px;
     }
     .blog-col {
-    width: 90%;
-}
+        width: 100%;
+    }
 
 .section-col-height {
     margin-bottom: 4rem;
@@ -208,5 +214,8 @@ iframe {
     flex-basis: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+p.blog-text {
+    font-size: 13px;
 }
 }
