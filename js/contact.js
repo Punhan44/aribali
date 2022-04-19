@@ -170,3 +170,25 @@ favICondr.forEach(dr=>{
  })
  
 })
+
+
+
+// video modal
+
+const playModal=document.querySelector('.absoluty-play');
+const iframeDisplay=document.querySelector('.iframe-page-parent');
+const closeIframe=document.querySelector('.close-iframe-icon');
+const mfPage=document.querySelector('.mfp-bg');
+
+
+
+playModal.addEventListener('click',()=>{
+  iframeDisplay.style.display='block'
+})
+
+closeIframe.addEventListener('click',()=>{
+  iframeDisplay.style.display='none';
+})
+mfPage.addEventListener('click',()=>{
+  iframeDisplay.style.display='none';
+})
