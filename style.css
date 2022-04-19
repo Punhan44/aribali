@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    width: 70rem;
+    width: 69rem;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -523,12 +523,13 @@ margin-top: 40px;
 }
 
 h1.product-h1 {
+    TEXT-ALIGN: center;
     letter-spacing: 1.5px;
     line-height: 4rem;
     font-size: 45px;
 }
 p.products-text {
-    width: 33rem;
+    width: 34rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1096,7 +1097,7 @@ img.mail-img {
 
 /* Breakpoints Media query */
 
-@media (max-width:1200px) {
+@media (max-width:1140px) {
    
    
     .relative-header {
@@ -1364,6 +1365,51 @@ input.mail-input {
 ul.menu-main{
     padding: 35px 48px;
 }
+.absoluty-section-two-dotted {
+    position: absolute;
+    top: 6rem;
+    right: 0rem;
+    transform: rotate(217deg);
+}
+.absoluty-section-two-flower-bee {
+    position: absolute;
+    top: 35rem;
+    left: -8px;
+}
+.absoluty-section-four-dotted {
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+}
+.absoluty-section-sex-bees {
+    position: absolute;
+    left: -1rem;
+    top: 10rem;
+}
+.absoluty-section-six-dotted {
+    position: absolute;
+    top: 5px;
+    right: 0rem;
+    transform: rotate(359deg);
+}
+img.dotted {
+    width: 6rem;
+}
+.absoluty-footer-right {
+    position: absolute;
+    right: -1rem;
+    top: 3rem;
+}
+.absoluty-sectiont-sex-bee {
+    position: absolute;
+    top: 5rem;
+    right: 6rem;
+}
+.absoluty-footer-bees {
+    position: absolute;
+    top: 3rem;
+    left: 0rem;
+}
     
 }
 
@@ -1545,6 +1591,18 @@ iframe {
 
 .close-iframe-icon {
     top: 12.5rem;
+}
+.absolute-bee-bottom {
+    position: absolute;
+    left: 44rem;
+    top: 3rem;
+    z-index: 100;
+}
+.back-to-top {
+    right: 0rem;
+    top: 24rem;
+    font-size: 15px;
+    padding: 6px 10px;
 }
 }
 
