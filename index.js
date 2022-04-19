@@ -81,11 +81,11 @@ if(count>sliders.length-1){
 }
 showSlider()
 
-// setInterval(()=>{
+setInterval(()=>{
  
-//   showSlider()
+  showSlider()
  
-// },7000)
+},7000)
 
 
 
