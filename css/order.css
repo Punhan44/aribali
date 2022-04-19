@@ -163,6 +163,11 @@ p.inner-cart-live{
     .ordered-header-text {
         font-size: 25px;
     }
+    .section-order {
+        /* width: 62rem; */
+        margin: 5rem 0;
+        position: relative;
+    }
 
 }
 
