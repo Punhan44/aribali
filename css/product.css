@@ -683,4 +683,10 @@ section.range-slider input[type="range"] {
   margin-top: 7rem;
  margin-left: 0;
 }
+.product-filter {
+  display: inline-block;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  /* margin-right: auto; */
+}
 }
