@@ -681,7 +681,7 @@ section.range-slider input[type="range"] {
 .product-col-3 {
   flex-basis: 100%;
   margin-top: 7rem;
- margin-left: 0;
+  margin-left: 1rem;
 }
 .product-filter {
   display: inline-block;
