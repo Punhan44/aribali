@@ -11,8 +11,38 @@
   .text-succes-error{
       display:none ;
   }
-
-  @media (max-width:1200px){
+  .absoluty-play {
+    transform: translate(282% , -263%);
+    position: absolute;
+    top: auto;
+    left: auto;
+    font-size: 29px;
+    background: #fff;
+    color: #c74817;
+    width: 111px;
+    height: 97px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.close-iframe-icon {
+    position: absolute;
+    top: 5.5rem;
+    right: 0rem;
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+}
+.iframe-page-inner {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  @media (max-width:1140px){
     .container {
         width: 100%;   
     }
@@ -30,12 +60,21 @@
         height: 468px;
     }
     .absoluty-play {
-        transform: translate(50% , 50%);
+        transform: translate(282% , -263%);
         position: absolute;
-        top: 12%;
-        left: 42%;
-        font-size: 27px;
- 
+        /* top: 19%; */
+        /* left: 32%; */
+        font-size: 29px;
+        background: #fff;
+        color: #c74817;
+        width: 111px;
+        height: 97px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s ease-in-out;
+        cursor: pointer;
     }
     h3 {
         font-size: 29px;
@@ -50,11 +89,28 @@
         width: 100%;
     }
     .col-body {
-        width: 35rem;
+        width: 52rem;
         margin-left: auto;
         margin-right: auto;
     }
-  
+    .iframe-page-inner {
+        position: relative;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    iframe {
+        width: 100%;
+    }
+    .close-iframe-icon {
+        position: absolute;
+        top: 6rem;
+        /* left: 60rem; */
+        right: 0rem;
+        font-size: 26px;
+        color: #fff;
+        cursor: pointer;
+    }
 }
 @media (max-width:992px){
     
@@ -81,6 +137,13 @@
         width: 100px;
         height: 71px;
     }
+    .close-iframe-icon {
+    top: 10%;
+    left: 86%;
+}
+iframe {
+    width: 90%;
+}
 }
 @media(max-width:768px){
   
@@ -89,10 +152,10 @@
         height: 389px;
     }
     .absoluty-play {
-        transform: translate(50% , 50%);
+        transform: translate(16% , 110%);
         position: absolute;
-        top: 11%;
-        left: 41%;
+        /* top: 11%; */
+        /* left: 41%; */
         font-size: 23px;
         width: 78px;
         height: 55px;
@@ -111,6 +174,22 @@
     h3 {
         font-size: 20px;
         text-align: center;
+    }
+    .col-body {
+        width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .inner-row {
+        width: 100%;
+    }
+    iframe {
+        width: 87%;
+    }
+    .close-iframe-icon {
+        top: 23%;
+        left: 85%;
+        font-size: 22px;
     }
 }
 @media(max-width:576px){
@@ -157,4 +236,19 @@
         font-size: 13px;
         padding: 9px 11px;
     }
+    .iframe-page-inner {
+        position: relative;
+        width: 25rem;
+    }
+    .iframe-page {
+        transform: translate(7%,5%);
+        /* left: -100px; */
+        /* text-align: center; */
+        /* top: -100px; */
+        width: 95%;
+        height: 150%;
+        overflow: hidden;
+    }
+    
+    
 }
