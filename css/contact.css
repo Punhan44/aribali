@@ -241,11 +241,11 @@ iframe {
         width: 25rem;
     }
     .iframe-page {
-        transform: translate(7%,5%);
+        transform: translate(-4%,5%);
         /* left: -100px; */
         /* text-align: center; */
         /* top: -100px; */
-        width: 95%;
+        width: 100%;
         height: 150%;
         overflow: hidden;
     }
