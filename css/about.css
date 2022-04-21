@@ -162,7 +162,7 @@ p.our-team-bottom {
     width: 100%;
 }
 
-@media (max-width:1200px){
+@media (max-width:1140px){
 .shop-image{
     background-position: center 0;
     background-repeat: no-repeat;
@@ -334,8 +334,8 @@ p.about-image-bottom-right {
 }
 .footer-contact-info {
     display: flex;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     margin-bottom: 16px;
 }
