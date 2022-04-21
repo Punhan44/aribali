@@ -63,12 +63,11 @@ h1.product-h1 {
 }
 
 .product-col-3 {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-      position: relative;
-      left: 61px;
+  -ms-flex-preferred-size: 23%;
+  flex-basis: 23%;
+  position: relative;
+  left: 61px;
 }
-
 .product-category h1 {
   margin-bottom: 19px;
   font-size: 21px;
@@ -488,7 +487,7 @@ img.footer-product-img {
   border-radius: 50%;
 }
 
-@media(max-width:1200px){
+@media(max-width:1140px){
   .shop-image{
     background-position: center 0;
     background-repeat: no-repeat;
