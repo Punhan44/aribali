@@ -2263,11 +2263,11 @@ img.footer-footer {
 .absoluty-footer-bees {
     position: absolute;
     top: 3rem;
-    left: 1%;
+    left: 33px !important;
 }
 .absoluty-footer-right {
     position: absolute;
-    right: 2%;
+    right: 31px !important;
     top: 3rem;
 }
 h5 {
