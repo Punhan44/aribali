@@ -420,12 +420,23 @@ h1.product-h1 {
     }
     a.icon-sosial {
         background-color: #c74817;
-        padding: 6px 7px;
+        padding: 7px 9px;
         border-radius: 50%;
-        font-size: 11px;
+        font-size: 12px;
         color: #ffff;
-        /* line-height: 0; */
+        line-height: 0;
         margin-left: 6px;
         transition: 0.4s all;
+    }
+
+    .footer-contact-info {
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .footer-products {
+        margin-left: 0px;
     }
 }
